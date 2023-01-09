@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 33
+
+        ndk {
+            moduleName "xmp"
+        }
+//        externalNativeBuild {
+//
+//            cmake {
+//                cppFlags "-std=c++11 -frtti -fexceptions"
+//                abiFilters 'armeabi-v7a', 'arm64-v8a'//,'x86', 'x86_64'
+//                version "3.18.1"
+//            }
+//
+//            ndk {
+//                abiFilters "armeabi-v7a", "arm64-v8a"//, "x86", "x86_64"
+//            }
+//        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/libs/']
+        }
+    }
+    ndkVersion '24.0.8215888'
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+//    externalNativeBuild {
+//        cmake {
+//            path "src/main/jni/Makefile"
+//            version "3.18.1"
+//        }
+//    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation project(':andEngine')
+}

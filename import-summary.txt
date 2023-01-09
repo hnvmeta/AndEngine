@@ -1,0 +1,270 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndEngine:
+* .gitignore
+* AUTHORS.md
+* LICENSE.md
+* README.md
+* build.xml
+* ext\
+* ext\img\
+* ext\img\android.svg
+* ext\img\badge.png
+* ext\img\badge.svg
+* ext\img\clapboard.png
+* ext\img\clapboard.svg
+* ext\img\favicon.png
+* ext\img\favicon.svg
+* ext\img\icon.svg
+* ext\img\logo.png
+* ext\img\logo.svg
+* ext\img\logo_icon.svg
+* ext\img\source.png
+* ext\img\source.svg
+* ext\img\splash.png
+* ext\img\splash.svg
+* ext\scripts\
+* ext\scripts\build_texturepacks.sh
+* proguard.cfg
+From AndEngineAugmentedRealityExtension:
+* .gitignore
+* build.xml
+* proguard.cfg
+From AndEngineExamples:
+* .gitignore
+* build.xml
+* doc\
+* doc\benchmarks.pdf
+* doc\benchmarks.xlsx
+* doc\culling_benchmark.png
+* doc\culling_benchmark.xlsx
+* doc\spritebatch_benchmark.xlsx
+* ext\
+* ext\gfx\
+* ext\gfx\spritesheets\
+* ext\gfx\spritesheets\texturepackerexample\
+* ext\gfx\spritesheets\texturepackerexample\face_box.png
+* ext\gfx\spritesheets\texturepackerexample\face_circle_tiled.png
+* ext\gfx\spritesheets\texturepackerexample\face_hexagon_tiled.png
+* ext\gfx\spritesheets\texturepackerexample\face_triangle_tiled.png
+* ext\img\
+* ext\img\face_box_tiled.svg
+* ext\img\face_circle_tiled.svg
+* ext\img\face_hexagon_tiled.svg
+* ext\img\face_triangle_tiled.svg
+* ext\img\onscreen_control_base.svg
+* ext\img\onscreen_control_knob.svg
+* ext\img\parallax_background.svg
+* ext\img\parallax_background_layer_back.svg
+* ext\img\parallax_background_layer_front.svg
+* ext\img\parallax_background_layer_mid.svg
+* ext\img\particle.svg
+* ext\img\particle_fire.svg
+* ext\img\particle_halo.svg
+* ext\img\particle_point.svg
+* ext\img\particle_square.svg
+* ext\img\snake_head.pdn
+* ext\img\snake_head.svg
+* ext\img\snake_tailpart.pdn
+* ext\img\snake_tailpart.svg
+* ext\img\snake_texture.png
+* ext\img\toggle_button.svg
+* ext\market\
+* ext\market\icon.png
+* proguard.cfg
+* scripts\
+* scripts\build_spritesheets.sh
+From AndEngineLiveWallpaperExtension:
+* .gitignore
+* build.xml
+* proguard.cfg
+From AndEngineMODPlayerExtension:
+* .gitignore
+* build.xml
+* proguard.cfg
+From AndEngineMultiplayerExtension:
+* .gitignore
+* build.xml
+* proguard-project.txt
+From AndEnginePhysicsBox2DExtension:
+* .gitignore
+* README.md
+* UPDATE_LIBGDX_SOURCES.bat
+* UPDATE_LIBGDX_SOURCES.sh
+* build.xml
+* proguard.cfg
+From AndEngineSVGTextureRegionExtension:
+* .gitignore
+* build.xml
+* proguard-project.txt
+From AndEngineScriptingExtension:
+* .gitignore
+* README.md
+* build.xml
+* proguard-project.txt
+* spidermonkey\
+* spidermonkey\android\
+* spidermonkey\android\Android.mk
+* spidermonkey\dist\
+* spidermonkey\dist\include\
+* spidermonkey\dist\include\ds\
+* spidermonkey\dist\include\ds\BitArray.h
+* spidermonkey\dist\include\gc\
+* spidermonkey\dist\include\gc\Barrier.h
+* spidermonkey\dist\include\gc\Statistics.h
+* spidermonkey\dist\include\js-config.h
+* spidermonkey\dist\include\js.msg
+* spidermonkey\dist\include\js\
+* spidermonkey\dist\include\js\HashTable.h
+* spidermonkey\dist\include\js\LegacyIntTypes.h
+* spidermonkey\dist\include\js\MemoryMetrics.h
+* spidermonkey\dist\include\js\TemplateLib.h
+* spidermonkey\dist\include\js\Utility.h
+* spidermonkey\dist\include\js\Vector.h
+* spidermonkey\dist\include\jsalloc.h
+* spidermonkey\dist\include\jsapi.h
+* spidermonkey\dist\include\jsatom.h
+* spidermonkey\dist\include\jscell.h
+* spidermonkey\dist\include\jsclass.h
+* spidermonkey\dist\include\jsclist.h
+* spidermonkey\dist\include\jscpucfg.h
+* spidermonkey\dist\include\jsdbgapi.h
+* spidermonkey\dist\include\jsdhash.h
+* spidermonkey\dist\include\jsfriendapi.h
+* spidermonkey\dist\include\jsgc.h
+* spidermonkey\dist\include\jshash.h
+* spidermonkey\dist\include\jslock.h
+* spidermonkey\dist\include\json.h
+* spidermonkey\dist\include\jsperf.h
+* spidermonkey\dist\include\jsprf.h
+* spidermonkey\dist\include\jsproto.tbl
+* spidermonkey\dist\include\jsproxy.h
+* spidermonkey\dist\include\jsprvtd.h
+* spidermonkey\dist\include\jspubtd.h
+* spidermonkey\dist\include\jstypedarray.h
+* spidermonkey\dist\include\jstypes.h
+* spidermonkey\dist\include\jsutil.h
+* spidermonkey\dist\include\jsval.h
+* spidermonkey\dist\include\jsversion.h
+* spidermonkey\dist\include\jswrapper.h
+* spidermonkey\dist\include\jsxdrapi.h
+* spidermonkey\dist\include\mozilla\
+* spidermonkey\dist\include\mozilla\Assertions.h
+* spidermonkey\dist\include\mozilla\Attributes.h
+* spidermonkey\dist\include\mozilla\BloomFilter.h
+* spidermonkey\dist\include\mozilla\GuardObjects.h
+* spidermonkey\dist\include\mozilla\HashFunctions.h
+* spidermonkey\dist\include\mozilla\Likely.h
+* spidermonkey\dist\include\mozilla\LinkedList.h
+* spidermonkey\dist\include\mozilla\MSStdInt.h
+* spidermonkey\dist\include\mozilla\RangedPtr.h
+* spidermonkey\dist\include\mozilla\RefPtr.h
+* spidermonkey\dist\include\mozilla\StandardInteger.h
+* spidermonkey\dist\include\mozilla\Types.h
+* spidermonkey\dist\include\mozilla\Util.h
+* spidermonkey\dist\lib\
+* spidermonkey\dist\lib\libspidermonkey_static.a
+From AndEngineTMXTiledMapExtension:
+* .gitignore
+* build.xml
+* proguard.cfg
+From AndEngineTexturePackerExtension:
+* .gitignore
+* build.xml
+* proguard.cfg
+* scripts\
+* scripts\build_spritesheets.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndEngine:
+* AndroidManifest.xml => andEngine\src\main\AndroidManifest.xml
+* jni\ => andEngine\src\main\jni\
+* libs\armeabi-v7a\libandengine.so => andEngine\src\main\jniLibs\armeabi-v7a\libandengine.so
+* libs\armeabi\libandengine.so => andEngine\src\main\jniLibs\armeabi\libandengine.so
+* libs\x86\libandengine.so => andEngine\src\main\jniLibs\x86\libandengine.so
+* res\ => andEngine\src\main\res\
+* src\ => andEngine\src\main\java\
+In AndEngineAugmentedRealityExtension:
+* AndroidManifest.xml => andEngineAugmentedRealityExtension\src\main\AndroidManifest.xml
+* res\ => andEngineAugmentedRealityExtension\src\main\res\
+* src\ => andEngineAugmentedRealityExtension\src\main\java\
+In AndEngineLiveWallpaperExtension:
+* AndroidManifest.xml => andEngineLiveWallpaperExtension\src\main\AndroidManifest.xml
+* res\ => andEngineLiveWallpaperExtension\src\main\res\
+* src\ => andEngineLiveWallpaperExtension\src\main\java\
+In AndEngineMODPlayerExtension:
+* AndroidManifest.xml => andEngineMODPlayerExtension\src\main\AndroidManifest.xml
+* jni\ => andEngineMODPlayerExtension\src\main\jni\
+* res\ => andEngineMODPlayerExtension\src\main\res\
+* src\ => andEngineMODPlayerExtension\src\main\java\
+In AndEngineMultiplayerExtension:
+* AndroidManifest.xml => andEngineMultiplayerExtension\src\main\AndroidManifest.xml
+* res\ => andEngineMultiplayerExtension\src\main\res\
+* src\ => andEngineMultiplayerExtension\src\main\java\
+In AndEnginePhysicsBox2DExtension:
+* AndroidManifest.xml => andEnginePhysicsBox2DExtension\src\main\AndroidManifest.xml
+* jni\ => andEnginePhysicsBox2DExtension\src\main\jni\
+* res\ => andEnginePhysicsBox2DExtension\src\main\res\
+* src\ => andEnginePhysicsBox2DExtension\src\main\java\
+In AndEngineSVGTextureRegionExtension:
+* AndroidManifest.xml => andEngineSVGTextureRegionExtension\src\main\AndroidManifest.xml
+* res\ => andEngineSVGTextureRegionExtension\src\main\res\
+* src\ => andEngineSVGTextureRegionExtension\src\main\java\
+In AndEngineScriptingExtension:
+* AndroidManifest.xml => andEngineScriptingExtension\src\main\AndroidManifest.xml
+* jni\ => andEngineScriptingExtension\src\main\jni\
+* libs\armeabi-v7a\libandenginescriptingextension.so => andEngineScriptingExtension\src\main\jniLibs\armeabi-v7a\libandenginescriptingextension.so
+* libs\armeabi-v7a\libgnustl_shared.so => andEngineScriptingExtension\src\main\jniLibs\armeabi-v7a\libgnustl_shared.so
+* libs\armeabi\libandenginescriptingextension.so => andEngineScriptingExtension\src\main\jniLibs\armeabi\libandenginescriptingextension.so
+* libs\armeabi\libgnustl_shared.so => andEngineScriptingExtension\src\main\jniLibs\armeabi\libgnustl_shared.so
+* res\ => andEngineScriptingExtension\src\main\res\
+* src\ => andEngineScriptingExtension\src\main\java\
+In AndEngineTMXTiledMapExtension:
+* AndroidManifest.xml => andEngineTMXTiledMapExtension\src\main\AndroidManifest.xml
+* lint.xml => andEngineTMXTiledMapExtension\lint.xml
+* res\ => andEngineTMXTiledMapExtension\src\main\res\
+* src\ => andEngineTMXTiledMapExtension\src\main\java\
+In AndEngineTexturePackerExtension:
+* AndroidManifest.xml => andEngineTexturePackerExtension\src\main\AndroidManifest.xml
+* res\ => andEngineTexturePackerExtension\src\main\res\
+* src\ => andEngineTexturePackerExtension\src\main\java\
+In AndEngineExamples:
+* AndroidManifest.xml => andEngineExamples\src\main\AndroidManifest.xml
+* assets\ => andEngineExamples\src\main\assets\
+* res\ => andEngineExamples\src\main\res\
+* src\ => andEngineExamples\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
